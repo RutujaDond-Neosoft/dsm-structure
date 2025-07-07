@@ -1,0 +1,13 @@
+.input {
+    padding: var(--padding);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+  }  

@@ -1,0 +1,15 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-family: 'Arial, sans-serif';
+    --font-size-base: 16px;
+    --border-radius: 4px;
+    --padding: 10px 20px;
+  }
+
+  [data-theme='dark'] {
+    --primary-color: #ffdada;
+    --secondary-color: #ff9595;
+    --background-color: #ff9393;
+    --text-color: #ffffff;
+  }
