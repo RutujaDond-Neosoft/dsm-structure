@@ -1,4 +1,3 @@
-// src/components/TextArea.jsx
 import React from "react";
 import "./TextArea.css";
 
