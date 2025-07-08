@@ -14,7 +14,7 @@ const Input = ({
   maxLength,
   minLength,
   ariaLabel,
-  // tabIndex, 
+   tabIndex, 
 }) => {
   return (
     <input
@@ -31,6 +31,7 @@ const Input = ({
       maxLength={maxLength}
       minLength={minLength}
       aria-label={ariaLabel}
+      tabIndex={tabIndex}
     />
   );
 };

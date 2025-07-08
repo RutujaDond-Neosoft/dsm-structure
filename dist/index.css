@@ -1,9 +1,10 @@
-@import './styles/variables.css';
+@import './styles/theme.css';
 
 body {
   margin: 0;
   font-family: var(--font-family);
   font-size: var(--font-size-base);
+  width: 100%;
 }
 
 

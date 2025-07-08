@@ -10,11 +10,20 @@ function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e
 const Typography = _ref => {
   let {
     variant = 'h1',
-    children
+    children,
+    id,
+    className = '',
+    style,
+    ariaLabel,
+    role
   } = _ref;
   const Tag = variant;
   return /*#__PURE__*/_react.default.createElement(Tag, {
-    className: "typography ".concat(variant)
+    id: id,
+    className: className,
+    style: style,
+    "aria-label": ariaLabel,
+    role: role
   }, children);
 };
 var _default = exports.default = Typography;
